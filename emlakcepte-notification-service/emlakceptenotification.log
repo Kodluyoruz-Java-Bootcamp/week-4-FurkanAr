@@ -1,0 +1,145 @@
+2023-01-08 22:04:14.733  INFO 9620 --- [restartedMain] EmlakcepteNotificationServiceApplication : Starting EmlakcepteNotificationServiceApplication using Java 17.0.5 on DESKTOP-C7M7OCV with PID 9620 (D:\Deneme Yazılım\emlakcepte-project\emlakcepte-notification-service\target\classes started by farfa in D:\Deneme Yazılım\emlakcepte-project\emlakcepte-notification-service)
+2023-01-08 22:04:14.736  INFO 9620 --- [restartedMain] EmlakcepteNotificationServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2023-01-08 22:04:14.982  INFO 9620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-08 22:04:18.430  INFO 9620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-08 22:04:18.788  INFO 9620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 321 ms. Found 1 JPA repository interfaces.
+2023-01-08 22:04:20.096  INFO 9620 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-08 22:04:20.221  INFO 9620 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-08 22:04:20.746  INFO 9620 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-08 22:04:20.825 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@46c7b01
+2023-01-08 22:04:20.826 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@46c7b01
+2023-01-08 22:04:20.826 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@46c7b01
+2023-01-08 22:04:20.827 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@141b5477
+2023-01-08 22:04:20.834 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@b02141
+2023-01-08 22:04:20.836 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@6b4612c9
+2023-01-08 22:04:20.842 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@412c6c5a
+2023-01-08 22:04:20.843 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@412c6c5a
+2023-01-08 22:04:20.851 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@412c6c5a
+2023-01-08 22:04:20.854 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@3a1359d2
+2023-01-08 22:04:20.854 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@3a1359d2
+2023-01-08 22:04:20.855 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3a1359d2
+2023-01-08 22:04:20.857 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@1625d255
+2023-01-08 22:04:20.857 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@1625d255
+2023-01-08 22:04:20.858 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1625d255
+2023-01-08 22:04:20.860 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@981be5
+2023-01-08 22:04:20.861 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@981be5
+2023-01-08 22:04:20.862 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@981be5
+2023-01-08 22:04:20.869 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@7e4ddef0
+2023-01-08 22:04:20.871 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@7e4ddef0
+2023-01-08 22:04:20.871 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@7e4ddef0
+2023-01-08 22:04:20.874 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@2aa1470
+2023-01-08 22:04:20.875 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@2aa1470
+2023-01-08 22:04:20.879 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2aa1470
+2023-01-08 22:04:20.882 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@2e5d4e17
+2023-01-08 22:04:20.883 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@2e5d4e17
+2023-01-08 22:04:20.883 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2e5d4e17
+2023-01-08 22:04:20.885 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@28bbfecb
+2023-01-08 22:04:20.885 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@28bbfecb
+2023-01-08 22:04:20.889 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5d6e92e8
+2023-01-08 22:04:20.889 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5d6e92e8
+2023-01-08 22:04:20.891 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@7c783249
+2023-01-08 22:04:20.891 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@7c783249
+2023-01-08 22:04:20.892 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@639254bb
+2023-01-08 22:04:20.893 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@5211d769
+2023-01-08 22:04:20.895 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@620ba5c2
+2023-01-08 22:04:20.896 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@620ba5c2
+2023-01-08 22:04:20.899 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@626b1a2e
+2023-01-08 22:04:20.899 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@626b1a2e
+2023-01-08 22:04:20.902 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@288fd1c3
+2023-01-08 22:04:20.903 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@288fd1c3
+2023-01-08 22:04:20.905 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@796469d
+2023-01-08 22:04:20.906 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@796469d
+2023-01-08 22:04:20.908 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2e43dc47
+2023-01-08 22:04:20.908 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2e43dc47
+2023-01-08 22:04:20.914 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@62432ebd
+2023-01-08 22:04:20.914 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@62432ebd
+2023-01-08 22:04:20.923 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7c282555
+2023-01-08 22:04:20.924 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7c282555
+2023-01-08 22:04:20.927 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@4a4dd007
+2023-01-08 22:04:20.927 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@4a4dd007
+2023-01-08 22:04:20.929 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6a14f134
+2023-01-08 22:04:20.930 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6a14f134
+2023-01-08 22:04:20.932 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@7d7a3815
+2023-01-08 22:04:20.932 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@7d7a3815
+2023-01-08 22:04:20.935 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@470a2ce9
+2023-01-08 22:04:20.937 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@470a2ce9
+2023-01-08 22:04:20.939 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@2b424466
+2023-01-08 22:04:20.940 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@2b424466
+2023-01-08 22:04:20.940 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@2b424466
+2023-01-08 22:04:20.945 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@6dfc4c60
+2023-01-08 22:04:20.947 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@6b0d6e28
+2023-01-08 22:04:20.947 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6b0d6e28
+2023-01-08 22:04:20.948 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6b0d6e28
+2023-01-08 22:04:20.949 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@4401d43a
+2023-01-08 22:04:20.952 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@3c2dacf0
+2023-01-08 22:04:20.956 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@3a766ed4
+2023-01-08 22:04:20.957 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3a766ed4
+2023-01-08 22:04:20.959 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@36353109
+2023-01-08 22:04:20.960 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@36353109
+2023-01-08 22:04:20.962 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@55680f4e
+2023-01-08 22:04:20.963 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@55680f4e
+2023-01-08 22:04:20.965 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@99aed29
+2023-01-08 22:04:20.965 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@99aed29
+2023-01-08 22:04:20.967 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1e18bcf3
+2023-01-08 22:04:20.967 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1e18bcf3
+2023-01-08 22:04:20.968 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4076ba23
+2023-01-08 22:04:20.970 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@24325e90
+2023-01-08 22:04:20.970 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@24325e90
+2023-01-08 22:04:20.970 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@24325e90
+2023-01-08 22:04:20.972 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@928f59b
+2023-01-08 22:04:20.973 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@928f59b
+2023-01-08 22:04:20.973 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@928f59b
+2023-01-08 22:04:20.975 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@10b1dba2
+2023-01-08 22:04:20.976 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@86414b8
+2023-01-08 22:04:20.999 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@63c1c327
+2023-01-08 22:04:20.999 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@63c1c327
+2023-01-08 22:04:20.999 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@63c1c327
+2023-01-08 22:04:21.001 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@56b57c93
+2023-01-08 22:04:21.001 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@56b57c93
+2023-01-08 22:04:21.001 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@56b57c93
+2023-01-08 22:04:21.002 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@465a2535
+2023-01-08 22:04:21.003 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@324069cc
+2023-01-08 22:04:21.005 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@1ea6cdea
+2023-01-08 22:04:21.005 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1ea6cdea
+2023-01-08 22:04:21.006 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7b06b097
+2023-01-08 22:04:21.009 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@4a73b866
+2023-01-08 22:04:21.009 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4a73b866
+2023-01-08 22:04:21.011 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@74150570
+2023-01-08 22:04:21.012 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@74150570
+2023-01-08 22:04:21.013 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@28f47b20
+2023-01-08 22:04:21.015 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@22278822
+2023-01-08 22:04:21.018 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@45180b0f
+2023-01-08 22:04:21.024 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@4ef90b4d
+2023-01-08 22:04:21.024 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4ef90b4d
+2023-01-08 22:04:21.025 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@18900be5
+2023-01-08 22:04:21.026 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4c450600
+2023-01-08 22:04:21.027 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1e29bb0e
+2023-01-08 22:04:21.027 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@2eec7d66
+2023-01-08 22:04:21.027 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@36bb947d
+2023-01-08 22:04:21.027 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@52aaf1ac
+2023-01-08 22:04:21.027 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@188d13c
+2023-01-08 22:04:21.028 DEBUG 9620 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4cc29b26
+2023-01-08 22:04:21.148  INFO 9620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-08 22:04:21.665  INFO 9620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-08 22:04:21.703  INFO 9620 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2023-01-08 22:04:21.804 DEBUG 9620 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@62eca8a8] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@a610784]
+2023-01-08 22:04:22.379 DEBUG 9620 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@62eca8a8] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@48bd13b3]
+2023-01-08 22:04:23.559 DEBUG 9620 --- [restartedMain] org.hibernate.SQL                        : drop table users cascade
+2023-01-08 22:04:23.573 DEBUG 9620 --- [restartedMain] org.hibernate.SQL                        : drop sequence hibernate_sequence
+2023-01-08 22:04:23.580 DEBUG 9620 --- [restartedMain] org.hibernate.SQL                        : create sequence hibernate_sequence start 1 increment 1
+2023-01-08 22:04:23.589 DEBUG 9620 --- [restartedMain] org.hibernate.SQL                        : create table users (id int4 not null, cash float8, email varchar(255), name varchar(255), password varchar(255), primary key (id))
+2023-01-08 22:04:23.608  INFO 9620 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-08 22:04:23.622 TRACE 9620 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@48bd13b3] for TypeConfiguration
+2023-01-08 22:04:23.625  INFO 9620 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-08 22:04:25.653  WARN 9620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-01-08 22:04:25.844  INFO 9620 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-01-08 22:04:26.001  INFO 9620 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1e36a0c3:0/SimpleConnection@2a65fd0 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 56625]
+2023-01-08 22:04:26.103  INFO 9620 --- [restartedMain] EmlakcepteNotificationServiceApplication : Started EmlakcepteNotificationServiceApplication in 12.751 seconds (JVM running for 15.091)
+2023-01-08 22:05:57.674 DEBUG 9620 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] org.hibernate.SQL                        : select nextval ('hibernate_sequence')
+2023-01-08 22:05:57.756 DEBUG 9620 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] org.hibernate.SQL                        : insert into users (cash, email, name, password, id) values (?, ?, ?, ?, ?)
+2023-01-08 22:05:57.760 TRACE 9620 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [DOUBLE] - [200.0]
+2023-01-08 22:05:57.763 TRACE 9620 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [far@gmail.com]
+2023-01-08 22:05:57.763 TRACE 9620 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [far]
+2023-01-08 22:05:57.763 TRACE 9620 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [Dev-far123@]
+2023-01-08 22:05:57.764 TRACE 9620 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [INTEGER] - [1]
+2023-01-08 22:05:57.777  INFO 9620 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.listener.NotificationListener        : Notification listener invoked - Consuming Message with UserRequest Email : far@gmail.com

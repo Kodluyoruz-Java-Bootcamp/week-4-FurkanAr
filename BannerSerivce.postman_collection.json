@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "b9b22461-5826-474f-a928-20c64a74d7d2",
+		"name": "BannerSerivce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19630129"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9090/banners",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bannerNo\": \"120\",\r\n    \"piece\": 1,\r\n    \"phone1\": \"5555423232\",\r\n    \"phone2\": \"5554866523\",\r\n    \"address\": \"İstanbul Sarıyer\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/banners",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"banners"
+					]
+				},
+				"description": "create a new banner"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9090/banners",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/banners",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"banners"
+					]
+				},
+				"description": "get banners"
+			},
+			"response": []
+		}
+	]
+}
