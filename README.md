@@ -26,6 +26,8 @@ Kullanıcı kendi kullancı bilgilerini düzenleyebilir.
 Kullanıcı yaptığı aramalar yapabilir, yaptığı aramaları silebilir.
 Kullanıcı sisteme kayıt olurken bilgilerini tam olarak ve belirtilen kıstaslara uygun girmelidir.
 
+Sistemde yapılan işlemler loglanmaktadır. Loglanma rabbitmq, database ve txt olarak polimorfik şekilde ayarlanmıştır.
+
 Projenin mikroservis diyagramı ve entity relationship diyagramı da eklenmekmiştir. Ek olarak postman den yapılan api istekleri de collection.json formatında eklenmiştir.
 
 
