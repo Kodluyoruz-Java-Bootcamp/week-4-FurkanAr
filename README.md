@@ -17,8 +17,14 @@ Kullanıcı bir paket aldığında aldığı paket ve kullanıcı bilgisi paymen
 Eğer ödeme işlemi başarılıysa alınan paket ve ödeme bilgisi ekrana döndürülür. Payment servisine gelen ödeme bilgileri de kendi veritabanına kaydeder.
 Ödeme bilgisi kuyruğa atılır, emlakcepte servisi gelen kuyruk bilgisini okur ve kullancının paketi tanımlanır. Bütün bilgiler emlakcepte veritabanına kaydedilir.
 
-Kullanıcı ilanının yayınladığında IN_REVIEW statüsünde yayınlanmaktadır. Yayınlanan ilan bilgisi kuyruğa atılır kuyruktan gelen ilanın bilgisini emlakcepte
-servisinde bulunan realtystatus servisi okur ve ilanın statüsünü Active olarak değiştirir. 
+Kullanıcı ilanının yayınladığında paket ve kullanıcı bilgileri istenmektedir. Kullanıcının paketi yoksa ve 10 tane hali hazırda ilanı varsa ilan yayınlayamaz. Kullanıcı kendisine yeni paket alıp ilan yayınlayabilir. İlan yayınlandıktan sonra feign client olarak hizmet veren Banner Servisine bir adet ücretsiz afiş tanımlanır banner servis bu afişi senkron olarak alır ve veritabanına kaydeder. İlanlar IN_REVIEW statüsünde yayınlanmaktadır. Yayınlanan ilan bilgisi kuyruğa atılır kuyruktan gelen ilanın bilgisini emlakcepte servisinde bulunan realtystatus servisi okur ve ilanın statüsünü Active olarak değiştirir. 
+
+Kullanıcı ilanların statüsünü sadece aktif ve pasif olarak değiştirebilir. Başka bir güncelleme yapamaz. 
+Kullanıcı ilanlarını silebilir.
+Kullanıcı şehirler ve ilçelerdeki ilan sayılarını ve ilanları görüntüleyebilir.
+Kullanıcı kendi kullancı bilgilerini düzenleyebilir.
+Kullanıcı yaptığı aramalar yapabilir, yaptığı aramaları silebilir.
+Kullanıcı sisteme kayıt olurken bilgilerini tam olarak ve belirtilen kıstaslara uygun girmelidir.
 
 Projenin mikroservis diyagramı ve entity relationship diyagramı da eklenmekmiştir. Ek olarak postman den yapılan api istekleri de collection.json formatında eklenmiştir.
 
